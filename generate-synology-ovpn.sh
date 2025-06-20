@@ -52,16 +52,3 @@ $(cat "$TA")
 EOF
 
 echo "✅ Berhasil membuat file: $OUTPUT"
-
-
-
-💡 Cara Pakai
-- Simpan skrip di server, misalnya generate-synology-ovpn.sh
-- Jadikan executable:
-chmod +x generate-synology-ovpn.sh
-- Jalankan:
-./generate-synology-ovpn.sh
-
-
-File synology.ovpn akan jadi di folder tempat skrip dijalankan. Kamu bisa langsung upload ke NAS Synology.
-Kalau kamu mau, aku bisa bantu tambahkan parameter dhcp-option DNS atau endpoint domain kalau nanti ingin pakai DDNS. Mau sekalian dimodifikasi? 😄📡🧩
